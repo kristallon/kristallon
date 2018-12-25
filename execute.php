@@ -20,6 +20,7 @@ $text = trim($text);
 $text = strtolower($text);
 
 header("Content-Type: application/json");
+$response = '';
 
 if($text == "ciao"){$response = "puzzi";}
 
