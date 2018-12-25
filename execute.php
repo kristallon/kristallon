@@ -20,6 +20,9 @@ $text = trim($text);
 $text = strtolower($text);
 
 header("Content-Type: application/json");
+
+if($text == "ciao"){$response = "puzzi";}
+
 $parameters = array('chat_id' => $chatId, "text" => $text);
 $parameters["method"] = "sendMessage";
 echo json_encode($parameters);
