@@ -1,7 +1,7 @@
 <?php
 
 // PARAMETRI DA MODIFICARE
-$WEBHOOK_URL = 'https://gneeebot.herokuapp.com/execute.php';
+$WEBHOOK_URL = 'https://kristallon.herokuapp.com/execute.php';
 $BOT_TOKEN = '738136947:AAHueqE1KPZeQ4FAIblODg4qlsY-zghikIM';
 
 // NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
